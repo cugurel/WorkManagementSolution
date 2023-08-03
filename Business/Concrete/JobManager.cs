@@ -14,7 +14,7 @@ namespace Business.Concrete
         {
             throw new NotImplementedException();
         }
-
+        -
         public List<Job> GetAll()
         {
             throw new NotImplementedException();
