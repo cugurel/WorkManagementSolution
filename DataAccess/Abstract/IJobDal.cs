@@ -7,13 +7,8 @@ using System.Threading.Tasks;
 
 namespace DataAccess.Abstract
 {
-    public interface IJobDal
+    public interface IJobDal: IGenericDal<Job>
     {
-        void Save(Job job);
-        void Delete(Job job);
-        void Update(Job job);
-        Job GetById(int id);
-        List<Job> GetAll();
-
+        
     }
 }
